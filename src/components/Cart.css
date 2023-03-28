@@ -1,0 +1,14 @@
+.cart-main {
+    width: 100%;
+    border: solid 1px lightblue;
+}
+
+.cart-greeting {
+    padding: 10px 0;
+    background-color: lightblue;
+    width: 100%;
+}
+
+.cart-grid {
+    width: 100%;
+}

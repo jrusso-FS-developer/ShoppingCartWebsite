@@ -1,0 +1,9 @@
+.main {
+    width: 100%; 
+}
+
+.main-inventory {  
+    width: 800px; 
+    margin: auto;
+    text-align: left;
+}

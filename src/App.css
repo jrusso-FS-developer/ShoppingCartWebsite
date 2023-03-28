@@ -1,0 +1,128 @@
+body > div{
+  width: 100vm;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header>div {
+  width: 800px;
+}
+
+.App-header {
+  background-color: #282c34;
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 80px;
+  padding: 2px;
+}
+
+.App-header>div {
+  padding: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-button {
+  border: solid 1px navy;
+  background-color: #61dafb;
+  height: 24px;
+  width: 78px;
+  font-weight: bold;
+}
+
+.body-channel {
+  width: 800px;
+  margin: auto;
+}
+
+.table-div {
+  display: table;
+  border: solid 1px darkolivegreen;
+  width: 100%;
+}
+
+.table-row-div {
+  display: table-row;
+}
+
+.table-cell-div {
+  display: table-cell;
+  padding: 2px 5px;
+  border: solid 1px darkolivegreen;
+}
+
+.table-header-group-div {
+  display: table-header-group;
+  background-color: rgb(95, 160, 122);
+  width: 100%;
+}
+
+.table-header-group-div td {
+  padding: 2px 7px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+  font-size: 16px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.cart-icon-and-badge {
+  padding: 8px 2px;
+  width: 32px;
+  height: 32px;
+  float: right;
+}
+
+.circle-badge {
+  position: relative;
+  top: -30px;
+  left: 12px;
+  border-radius: 10px;
+  background: red;
+  color: white;  
+}
+
+.cart-count {
+  font-size: 12px;
+  position: relative;
+  top: -48px;
+  left: 12px;
+}
